@@ -1,0 +1,36 @@
+import 'package:rated/network/tvShow.dart';
+
+List<TvShow> suggestedShows = [];
+List<TvShow> hboShows = [];
+List<TvShow> nostalgiaShows = [];
+List<TvShow> animatedCartoons = [];
+List<TvShow> documentaryShows = [];
+
+List<TvShow>? shows;
+List<TvShow>? showsFirstPage;
+List<TvShow>? showsSecondPage;
+List<TvShow>? showsThirdPage;
+List<TvShow>? showsEighthPage;
+late List<TvShow> highRatedShows;
+late List<TvShow> actionShows;
+late List<TvShow> adventureShows;
+late List<TvShow> animeShows;
+late List<TvShow> comedyShows;
+late List<TvShow> crimeShows;
+late List<TvShow> dramaShows;
+late List<TvShow> espionageShows;
+late List<TvShow> familyShows;
+late List<TvShow> fantasyShows;
+late List<TvShow> historyShows;
+late List<TvShow> horrorShows;
+late List<TvShow> legalShows;
+late List<TvShow> medicalShows;
+late List<TvShow> musicShows;
+late List<TvShow> mysteryShows;
+late List<TvShow> romanceShows;
+late List<TvShow> scienceFictionShows;
+late List<TvShow> sportsShows;
+late List<TvShow> supernaturalShows;
+late List<TvShow> thrillerShows;
+late List<TvShow> warShows;
+late List<TvShow> westernShows;
